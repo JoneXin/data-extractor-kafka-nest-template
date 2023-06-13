@@ -1,0 +1,19 @@
+{
+    "app": {
+        "name": "template",
+        "port": 12353
+    },
+    "kafka_config": {
+        "clientId": "dp_for_kafka_sqlite",
+        "brokers": [
+            "192.168.4.18:9092"
+        ]
+    },
+    "task": {
+        "demo_task": {
+            "sync_delay": "*/4 * * * * *",
+            "is_open_sync": true,
+            "kafka_topic": "demo_task"
+        }
+    }
+}
