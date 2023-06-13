@@ -19,8 +19,9 @@
 
 ## 介绍
 
-nest版本的数据抽取模版组成包括，http 控制模块， 日志集成， 监控集成，队列任务，mysql sequelize 集成，swagger文档集成，kafka producer集成
+nest版本的数据抽取模版目标是抽取数据源到kafka中, 模版集成的组件包括，http 控制模块， 日志集成， 监控集成，队列任务，mysql sequelize 集成，swagger文档集成，kafka producer集成
 
+![](https://files.catbox.moe/9a46fr.png)
 ## 安装依赖
 
 ```bash
