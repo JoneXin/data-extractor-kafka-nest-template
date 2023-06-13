@@ -4,6 +4,6 @@
         "port": 3306,
         "username": "root",
         "password": "Leaper@123",
-        "database": "demo"
+        "database": "test"
     }
 }
